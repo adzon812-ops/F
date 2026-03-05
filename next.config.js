@@ -2,7 +2,10 @@
 const nextConfig = {
   images: {
     unoptimized: true,
-    domains: ['images.unsplash.com'],
+  },
+  // Next.js 15 требует явного включения экспериментальных фич
+  experimental: {
+    // Пустой объект, если нужны будут фичи
   },
 }
 
